@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SelectionMode?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coffeeshop.PreferencesController">
+    <VBox spacing="10.0" alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label text="Welcome to the Coffee Shop!" />
+        <Label text="Please select your preference:" />
+
+        <HBox alignment="CENTER" spacing="10.0">
+            <ListView fx:id="preferencesListView" prefHeight="200.0" prefWidth="200.0" selectionModel="$preferencesSelectionModel">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Espresso (2.50 USD)" />
+                        <String fx:value="Latte (3.00 USD)" />
+                        <String fx:value="Cappuccino (2.80 USD)" />
+                        <String fx:value="Americano (2.20 USD)" />
+                    </FXCollections>
+                </items>
+            </ListView>
+
+            <VBox alignment="CENTER_LEFT" spacing="5.0">
+                <Label text="Recommendation:" />
+                <Label fx:id="recommendationLabel" />
+            </VBox>
+        </HBox>
+
+        <Button text="Next" onAction="#nextButtonClicked" />
+    </VBox>
+</AnchorPane>
