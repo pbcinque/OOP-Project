@@ -58,7 +58,7 @@ public class HomeController implements Initializable {
         hotchoco.setProductPrice(5.00);
         price1.setText(Double.toString(hotchoco.getProductPrice()));
 
-        hotchoco.setProductImage("image/hotchoco.jpg");
+        hotchoco.setProductImage("images/hotchoco.jpeg");
         Image hotchocolate = new Image(hotchoco.getProductImage());
         img1.setImage(hotchocolate);
 
@@ -70,7 +70,7 @@ public class HomeController implements Initializable {
         espresso.setProductPrice(10.00);
         price11.setText(Double.toString(espresso.getProductPrice()));
 
-        espresso.setProductImage("image/espresso.jpg");
+        espresso.setProductImage("images/espresso.jpeg");
         Image espressoImage = new Image(espresso.getProductImage());
         img11.setImage(espressoImage);
 
@@ -81,7 +81,7 @@ public class HomeController implements Initializable {
         strawberry.setProductPrice(15.00);
         price111.setText(Double.toString(strawberry.getProductPrice()));
 
-        strawberry.setProductImage("image/strawberry.jpg");
+        strawberry.setProductImage("images/strawberry.jpeg");
         Image berryImage = new Image(strawberry.getProductImage());
         img111.setImage(berryImage);
 
@@ -130,3 +130,5 @@ public class HomeController implements Initializable {
     }
 
 }
+
+
