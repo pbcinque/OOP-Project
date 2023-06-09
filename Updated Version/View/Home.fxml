@@ -10,18 +10,19 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1234.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
    <children>
       <ImageView fitHeight="720.0" fitWidth="1234.0" layoutX="1.0">
          <image>
-            <Image url="@../VS%20Code%20Projects/Test2/src/image/gradient.jpg" />
+            <Image url="@../image/gradient.jpg" />
          </image>
       </ImageView>
       <Pane layoutX="31.0" layoutY="30.0" prefHeight="301.0" prefWidth="337.0" style="-fx-background-color: beige;">
          <children>
             <ImageView fitHeight="295.0" fitWidth="328.0" layoutX="5.0" layoutY="4.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
             <Label fx:id="name1" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
@@ -36,10 +37,10 @@
             </Label>
             <ImageView fx:id="img1" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/hotchoco.jpg" />
+                  <Image url="@../image/hotchoco.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button1" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button1" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #FFB6C1;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -50,7 +51,7 @@
             <Line endX="240.0" endY="-311.0" layoutX="97.0" layoutY="311.0" startX="240.0" startY="-10.0" stroke="GOLDENROD" strokeWidth="10.0" />
          </children>
       </Pane>
-      <Button fx:id="cartbutton" layoutX="571.0" layoutY="340.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="40.0" prefWidth="94.0" style="-fx-background-color: orange;" text="My Cart" textFill="WHITE">
+      <Button fx:id="cartbutton" layoutX="571.0" layoutY="340.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="40.0" prefWidth="94.0" style="-fx-background-color: red;" text="My Cart" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -59,7 +60,7 @@
          <children>
             <ImageView fitHeight="301.0" fitWidth="342.0" layoutX="-4.0" layoutY="3.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
             <Label fx:id="name11" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
@@ -74,10 +75,10 @@
             </Label>
             <ImageView fx:id="img11" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/espresso.jpg" />
+                  <Image url="@../image/espresso.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button11" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button11" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ADD8E6;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -92,7 +93,7 @@
          <children>
             <ImageView fitHeight="301.0" fitWidth="342.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
             <Label fx:id="name111" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
@@ -107,10 +108,10 @@
             </Label>
             <ImageView fx:id="img111" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/strawberry.jpg" />
+                  <Image url="@../image/strawberry.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button111" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button111" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #FFB6C1;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -125,25 +126,25 @@
          <children>
             <ImageView fitHeight="301.0" fitWidth="328.0" layoutX="5.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
-            <Label fx:id="name12" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
+            <Label fx:id="name2" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label fx:id="price12" layoutX="230.0" layoutY="147.0" text="9.99">
+            <Label fx:id="price2" layoutX="230.0" layoutY="147.0" text="9.99">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <ImageView fx:id="img12" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="img2" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/hotchoco.jpg" />
+                  <Image url="@fruittea.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button12" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button12" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ADD8E6;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -158,25 +159,25 @@
          <children>
             <ImageView fitHeight="301.0" fitWidth="337.0" layoutX="-3.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
-            <Label fx:id="name121" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
+            <Label fx:id="name22" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label fx:id="price121" layoutX="230.0" layoutY="147.0" text="9.99">
+            <Label fx:id="price22" layoutX="230.0" layoutY="147.0" text="9.99">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <ImageView fx:id="img121" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="img22" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/hotchoco.jpg" />
+                  <Image url="@caramelfrappe.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button121" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button121" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #FFB6C1;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -191,25 +192,25 @@
          <children>
             <ImageView fitHeight="301.0" fitWidth="337.0">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/blue.jpg" />
+                  <Image url="@../image/blue.jpg" />
                </image>
             </ImageView>
-            <Label fx:id="name1211" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
+            <Label fx:id="name222" layoutX="187.0" layoutY="94.0" text="Hot Chocolate">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <Label fx:id="price1211" layoutX="230.0" layoutY="147.0" text="9.99">
+            <Label fx:id="price222" layoutX="230.0" layoutY="147.0" text="9.99">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
             </Label>
-            <ImageView fx:id="img1211" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="img222" fitHeight="221.0" fitWidth="157.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../VS%20Code%20Projects/Test2/src/image/hotchoco.jpg" />
+                  <Image url="@matchalatte.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="button1211" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+            <Button fx:id="button1211" layoutX="47.0" layoutY="250.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ADD8E6;" text="Add to Cart" textFill="#ab3363">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -220,62 +221,183 @@
             <Line endX="440.0" endY="-158.0" layoutX="-108.0" layoutY="459.0" startX="108.0" startY="-158.0" stroke="GOLDENROD" strokeWidth="10.0" />
          </children>
       </Pane>
-      <Circle fill="DODGERBLUE" layoutX="5.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="25.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="47.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="91.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="113.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="135.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="157.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="179.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="200.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="222.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="244.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="266.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="288.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="310.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="332.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="354.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="376.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="398.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="420.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="442.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="486.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="508.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="530.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="552.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="574.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="596.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="618.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="640.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="662.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="684.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="706.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="728.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="750.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="772.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="794.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="816.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="838.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="860.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="882.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="904.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="926.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="948.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="970.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="992.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1014.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1036.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1058.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1080.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1102.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1124.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1146.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1168.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1190.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1212.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="1234.0" layoutY="2.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="25.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="47.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="91.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="113.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="135.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="157.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="179.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="200.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="222.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="244.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="266.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="288.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="310.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="332.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="354.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="376.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="398.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="420.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="442.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="486.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="508.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="530.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="552.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="574.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="596.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="618.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="640.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="662.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="684.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="706.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="728.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="750.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="772.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="794.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="816.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="838.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="860.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="882.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="904.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="926.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="948.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="970.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="992.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1014.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1036.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1058.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1080.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1102.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1124.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1146.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1168.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1190.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1212.0" layoutY="2.0" radius="11.0" stroke="#e37383" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutY="42.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="20.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="64.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="86.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="108.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="130.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="152.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="174.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="196.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="218.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="240.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="262.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="284.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="306.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="328.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="350.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="372.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="394.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="416.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="438.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="460.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="482.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="504.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="526.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="548.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="570.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="592.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1.0" layoutY="614.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="636.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="658.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutY="680.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutY="702.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="25.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="47.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="69.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="91.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="113.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="135.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="157.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="179.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="200.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="222.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="244.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="266.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="288.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="310.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="332.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="354.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="376.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="398.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="420.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="442.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="464.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="486.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="508.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="530.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="552.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="574.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="596.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="618.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="640.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="662.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="684.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="706.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="728.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="750.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="772.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="794.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="816.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="838.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="860.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="882.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="904.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="926.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="948.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="970.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="992.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1014.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1036.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1058.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1080.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1102.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1124.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1146.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1168.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1190.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1212.0" layoutY="720.0" radius="11.0" stroke="#0096ff" strokeType="INSIDE" style="-fx-fill: transparent;" />
+      <Circle fill="DODGERBLUE" layoutX="1234.0" layoutY="20.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1230.0" layoutY="2.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1234.0" layoutY="42.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="5.0" layoutY="2.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="5.0" layoutY="720.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="64.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="86.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="108.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="130.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="152.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="174.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="196.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="218.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="240.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="262.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="284.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="306.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="328.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="350.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="372.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="394.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="416.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="438.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="460.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="482.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="504.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="526.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="548.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="570.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="592.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="614.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="636.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="658.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="680.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
+      <Circle fill="DODGERBLUE" layoutX="1235.0" layoutY="702.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #00FFFF;" />
+      <Circle fill="DODGERBLUE" layoutX="1230.0" layoutY="720.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-fill: #F33A6A;" />
    </children>
 </AnchorPane>
