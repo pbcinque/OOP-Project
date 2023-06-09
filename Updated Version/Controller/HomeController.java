@@ -22,13 +22,13 @@ import alert.AlertMaker;
 public class HomeController implements Initializable {
 
     @FXML
-    Label name1, name11, name111, price1, price11, price111;
+    Label name1, name11, name111, name2, name22, name222, price1, price11, price111, price2, price22, price222;
 
     @FXML
-    ImageView img1, img11, img111;
+    ImageView img1, img11, img111, img2, img22, img222;
 
     @FXML
-    Button button1, button11, button111, cartbutton;
+    Button button1, button11, button111, button2, button22, button222, cartbutton;
 
     @FXML
     private Stage stage;
@@ -47,6 +47,9 @@ public class HomeController implements Initializable {
     static HotChocolate hotchoco = new HotChocolate();
     static Espresso espresso = new Espresso();
     static Strawberry strawberry = new Strawberry();
+    static FruitTea fruit = new FruitTea();
+    static Frappe caramel = new Frappe();
+    static Latte matcha = new Latte();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -58,32 +61,64 @@ public class HomeController implements Initializable {
         hotchoco.setProductPrice(5.00);
         price1.setText(Double.toString(hotchoco.getProductPrice()));
 
-        hotchoco.setProductImage("images/hotchoco.jpeg");
-        Image hotchocolate = new Image(hotchoco.getProductImage());
-        img1.setImage(hotchocolate);
+        hotchoco.setProductImage("image/hotchoco.jpg");
+        Image hotchocolateImage = new Image(hotchoco.getProductImage());
+        img1.setImage(hotchocolateImage);
 
         // ============== ESPRESSO ==================//
-
         espresso.setProductName("     Espresso");
         name11.setText(espresso.getProductName());
 
         espresso.setProductPrice(10.00);
         price11.setText(Double.toString(espresso.getProductPrice()));
 
-        espresso.setProductImage("images/espresso.jpeg");
+        espresso.setProductImage("image/espresso.jpg");
         Image espressoImage = new Image(espresso.getProductImage());
         img11.setImage(espressoImage);
 
-        // ============== STRAWBERRY ==================//
-        strawberry.setProductName("   Smoothie");
+        // ============== SMOOTHIE ==================//
+        strawberry.setProductName("     Smoothie");
         name111.setText(strawberry.getProductName());
 
         strawberry.setProductPrice(15.00);
         price111.setText(Double.toString(strawberry.getProductPrice()));
 
-        strawberry.setProductImage("images/strawberry.jpeg");
+        strawberry.setProductImage("image/strawberry.jpg");
         Image berryImage = new Image(strawberry.getProductImage());
         img111.setImage(berryImage);
+
+        // ============== FRUIT TEA ==================//
+        fruit.setProductName("     Fruit Tea");
+        name2.setText(fruit.getProductName());
+
+        fruit.setProductPrice(15.00);
+        price2.setText(Double.toString(fruit.getProductPrice()));
+
+        fruit.setProductImage("image/fruittea.jpg");
+        Image fruitImage = new Image(fruit.getProductImage());
+        img2.setImage(fruitImage);
+
+        // ============== FRUIT TEA ==================//
+        caramel.setProductName("Caramel Frappe");
+        name22.setText(caramel.getProductName());
+
+        caramel.setProductPrice(15.00);
+        price22.setText(Double.toString(caramel.getProductPrice()));
+
+        caramel.setProductImage("image/caramelfrappe.jpg");
+        Image caramelImage = new Image(caramel.getProductImage());
+        img22.setImage(caramelImage);
+
+        // ============== FRUIT TEA ==================//
+        matcha.setProductName(" Matcha Latte");
+        name222.setText(matcha.getProductName());
+
+        matcha.setProductPrice(15.00);
+        price222.setText(Double.toString(matcha.getProductPrice()));
+
+        matcha.setProductImage("image/matchalatte.jpg");
+        Image matchImage = new Image(matcha.getProductImage());
+        img222.setImage(matchImage);
 
         try {
             loader = new FXMLLoader(getClass().getResource("/view/Checkout.fxml"));
@@ -99,7 +134,7 @@ public class HomeController implements Initializable {
 
     public void buy(ActionEvent event) throws IOException {
 
-        AlertMaker.showSimpleAlert("hello", "item added");
+        AlertMaker.showSimpleAlert("Warning", "Item successfully added to cart!");
 
         Button sourceButton = (Button) event.getSource();
 
@@ -118,6 +153,21 @@ public class HomeController implements Initializable {
             strawberry.setProductStatus(true);
             checkoutController.addItem(checkoutController.pane3);
         }
+
+        else if (sourceButton == button2) {
+            fruit.setProductStatus(true);
+            checkoutController.addItem(checkoutController.pane4);
+        }
+
+        else if (sourceButton == button22) {
+            caramel.setProductStatus(true);
+            checkoutController.addItem(checkoutController.pane5);
+        }
+
+        else if (sourceButton == button222) {
+            matcha.setProductStatus(true);
+            checkoutController.addItem(checkoutController.pane6);
+        }
     }
 
     // Goes to Checkout.fxml
@@ -130,5 +180,3 @@ public class HomeController implements Initializable {
     }
 
 }
-
-
