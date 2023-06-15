@@ -40,7 +40,7 @@
       <Circle fill="#f8c8dc" layoutX="473.0" layoutY="368.0" opacity="0.4" radius="15.0" stroke="#e37383" strokeType="INSIDE" />
       <ImageView fitHeight="145.0" fitWidth="145.0" layoutX="378.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../image/anya.png" />
+            <Image url="@../image/anya.gif" />
          </image>
       </ImageView>
       <Label layoutX="82.0" layoutY="236.0" prefHeight="36.0" prefWidth="108.0" text="Username: " textFill="#ab3363">
