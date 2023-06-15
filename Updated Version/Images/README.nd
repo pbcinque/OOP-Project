@@ -1,6 +1,6 @@
 Background folder - yung background sa lahat ng FXML (except sa Receipt).
-Checkout folder - lahat ng images sa Checkout fxml (bukod pa yung images ng mga Products dyan).
-Home folder - lahat ng images sa Home fxml.
+Checkout folder - lahat ng images sa Checkout fxml.
+Home folder - lahat ng images sa Home fxml (bukod pa yung images ng mga Products dyan).
 Login&ForgotPassword folder - lahat ng images sa Login at Forgot Password fxml.
 Products folder - images nung mga products sa Home fxml.
 Receipt folder - lahat ng images na nasa Receipt fxml.
