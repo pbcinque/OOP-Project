@@ -58,7 +58,7 @@ public class HomeController implements Initializable {
         hotchoco.setProductName("Hot Chocolate");
         name1.setText(hotchoco.getProductName());
 
-        hotchoco.setProductPrice(5.00);
+        hotchoco.setProductPrice(1.77);
         price1.setText(Double.toString(hotchoco.getProductPrice()));
 
         hotchoco.setProductImage("image/hotchoco.jpg");
@@ -66,10 +66,10 @@ public class HomeController implements Initializable {
         img1.setImage(hotchocolateImage);
 
         // ============== ESPRESSO ==================//
-        espresso.setProductName("     Espresso");
+        espresso.setProductName("Espresso");
         name11.setText(espresso.getProductName());
 
-        espresso.setProductPrice(10.00);
+        espresso.setProductPrice(1.79);
         price11.setText(Double.toString(espresso.getProductPrice()));
 
         espresso.setProductImage("image/espresso.jpg");
@@ -77,10 +77,10 @@ public class HomeController implements Initializable {
         img11.setImage(espressoImage);
 
         // ============== SMOOTHIE ==================//
-        strawberry.setProductName("     Smoothie");
+        strawberry.setProductName("Smoothie");
         name111.setText(strawberry.getProductName());
 
-        strawberry.setProductPrice(15.00);
+        strawberry.setProductPrice(2.68);
         price111.setText(Double.toString(strawberry.getProductPrice()));
 
         strawberry.setProductImage("image/strawberry.jpg");
@@ -88,32 +88,32 @@ public class HomeController implements Initializable {
         img111.setImage(berryImage);
 
         // ============== FRUIT TEA ==================//
-        fruit.setProductName("     Fruit Tea");
+        fruit.setProductName("Fruit Tea");
         name2.setText(fruit.getProductName());
 
-        fruit.setProductPrice(15.00);
+        fruit.setProductPrice(2.23);
         price2.setText(Double.toString(fruit.getProductPrice()));
 
         fruit.setProductImage("image/fruittea.jpg");
         Image fruitImage = new Image(fruit.getProductImage());
         img2.setImage(fruitImage);
 
-        // ============== FRUIT TEA ==================//
+        // ============== CARAMEL FRAPPE ==================//
         caramel.setProductName("Caramel Frappe");
         name22.setText(caramel.getProductName());
 
-        caramel.setProductPrice(15.00);
+        caramel.setProductPrice(2.75);
         price22.setText(Double.toString(caramel.getProductPrice()));
 
         caramel.setProductImage("image/caramelfrappe.jpg");
         Image caramelImage = new Image(caramel.getProductImage());
         img22.setImage(caramelImage);
 
-        // ============== FRUIT TEA ==================//
-        matcha.setProductName(" Matcha Latte");
+        // ============== MATCHA LATTE ==================//
+        matcha.setProductName("Matcha Latte");
         name222.setText(matcha.getProductName());
 
-        matcha.setProductPrice(15.00);
+        matcha.setProductPrice(1.79);
         price222.setText(Double.toString(matcha.getProductPrice()));
 
         matcha.setProductImage("image/matchalatte.jpg");
@@ -129,7 +129,9 @@ public class HomeController implements Initializable {
 
         // Clears all items in Checkout.fxml
         checkoutController = loader.getController();
-        checkoutController.myvbox.getChildren().removeAll(checkoutController.myvbox.getChildren());
+        checkoutController.myvbox1.getChildren().removeAll(checkoutController.myvbox1.getChildren());
+        checkoutController.myvbox2.getChildren().removeAll(checkoutController.myvbox2.getChildren());
+
     }
 
     public void buy(ActionEvent event) throws IOException {
@@ -139,39 +141,47 @@ public class HomeController implements Initializable {
         Button sourceButton = (Button) event.getSource();
 
         // If addtocart button is pressed, set product status to true
-        if (sourceButton.equals(button1)) {
+        if (sourceButton == button1) {
             hotchoco.setProductStatus(true);
+            HomeController.hotchoco.setProductQuantity(1.0);
             checkoutController.addItem(checkoutController.pane1);
         }
 
         else if (sourceButton == button11) {
             espresso.setProductStatus(true);
+            HomeController.espresso.setProductQuantity(1.0);
             checkoutController.addItem(checkoutController.pane2);
         }
 
         else if (sourceButton == button111) {
             strawberry.setProductStatus(true);
+            HomeController.strawberry.setProductQuantity(1.0);
             checkoutController.addItem(checkoutController.pane3);
         }
 
         else if (sourceButton == button2) {
             fruit.setProductStatus(true);
-            checkoutController.addItem(checkoutController.pane4);
+            HomeController.fruit.setProductQuantity(1.0);
+            checkoutController.addItem1(checkoutController.pane4);
         }
 
         else if (sourceButton == button22) {
             caramel.setProductStatus(true);
-            checkoutController.addItem(checkoutController.pane5);
+            HomeController.caramel.setProductQuantity(1.0);
+            checkoutController.addItem1(checkoutController.pane5);
         }
 
         else if (sourceButton == button222) {
             matcha.setProductStatus(true);
-            checkoutController.addItem(checkoutController.pane6);
+            HomeController.matcha.setProductQuantity(1.0);
+            checkoutController.addItem1(checkoutController.pane6);
         }
     }
 
     // Goes to Checkout.fxml
     public void gotocart(ActionEvent event) throws IOException {
+
+        checkoutController.getInitialAmount();
 
         Scene scene = new Scene(root);
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
