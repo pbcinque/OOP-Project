@@ -1,17 +1,24 @@
 package controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 public class CheckoutController implements Initializable {
 
@@ -22,6 +29,9 @@ public class CheckoutController implements Initializable {
     VBox myvbox1, myvbox2;
 
     @FXML
+    Button checkoutButton;
+
+    @FXML
     Label name1, name11, name111, name2, name22, name222, price1, price11, price111, price2, price22, price222, total;
 
     @FXML
@@ -30,7 +40,7 @@ public class CheckoutController implements Initializable {
     @FXML
     private ChoiceBox<String> choicebox1, choicebox2, choicebox3, choicebox4, choicebox5, choicebox6;
 
-    private String[] quantity = { "1", "2", "3", "4", "5", "6" };
+    private String[] quantity = { "1", "2", "3"};
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -88,25 +98,17 @@ public class CheckoutController implements Initializable {
         choicebox4.setOnAction(this::computeTotal);
         choicebox5.setOnAction(this::computeTotal);
         choicebox6.setOnAction(this::computeTotal);
-
-        // Set total initial amount
-        double totalInitialAmount = 0.00;
-        if (HomeController.espresso.getProductStatus() || HomeController.hotchoco.getProductStatus() || HomeController.strawberry.getProductStatus() || HomeController.fruit.getProductStatus() || HomeController.caramel.getProductStatus() || HomeController.matcha.getProductStatus()) {
-            totalInitialAmount = Double.parseDouble(choicebox1.getValue()) * HomeController.hotchoco.getProductPrice() +
-            +Double.parseDouble(choicebox2.getValue()) * HomeController.espresso.getProductPrice()
-            + Double.parseDouble(choicebox3.getValue()) * HomeController.strawberry.getProductPrice() + Double.parseDouble(choicebox4.getValue()) * HomeController.fruit.getProductPrice() + Double.parseDouble(choicebox5.getValue()) * HomeController.caramel.getProductPrice() + Double.parseDouble(choicebox6.getValue()) * HomeController.matcha.getProductPrice();
-        }
-     
-        // Display total initial amount in total label
-        total.setText(Double.toString(totalInitialAmount));
+        
     }
 
     public void addItem(Pane pane) {
         myvbox1.getChildren().add(pane);
+
     }
 
     public void addItem1(Pane pane) {
         myvbox2.getChildren().add(pane);
+
     }
 
     public void computeTotal(ActionEvent event) {
@@ -126,6 +128,7 @@ public class CheckoutController implements Initializable {
         if (HomeController.hotchoco.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox1.getValue());
+            HomeController.hotchoco.setProductQuantity(qty);
             item1Amount = HomeController.hotchoco.getProductPrice() * qty;
 
             if (source == choicebox1) {
@@ -136,6 +139,7 @@ public class CheckoutController implements Initializable {
         if (HomeController.espresso.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox2.getValue());
+            HomeController.espresso.setProductQuantity(qty);
             item2Amount = HomeController.espresso.getProductPrice() * qty;
 
             if (source == choicebox2) {
@@ -146,6 +150,7 @@ public class CheckoutController implements Initializable {
         if (HomeController.strawberry.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox3.getValue());
+            HomeController.strawberry.setProductQuantity(qty);
             item3Amount = HomeController.strawberry.getProductPrice() * qty;
 
             if (source == choicebox3) {
@@ -156,6 +161,7 @@ public class CheckoutController implements Initializable {
          if (HomeController.fruit.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox4.getValue());
+            HomeController.fruit.setProductQuantity(qty);
             item4Amount = HomeController.fruit.getProductPrice() * qty;
 
             if (source == choicebox4) {
@@ -166,6 +172,7 @@ public class CheckoutController implements Initializable {
          if (HomeController.caramel.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox5.getValue());
+            HomeController.caramel.setProductQuantity(qty);
             item5Amount = HomeController.caramel.getProductPrice() * qty;
 
             if (source == choicebox5) {
@@ -176,6 +183,7 @@ public class CheckoutController implements Initializable {
          if (HomeController.matcha.getProductStatus()) {
 
             double qty = Double.parseDouble(choicebox6.getValue());
+            HomeController.matcha.setProductQuantity(qty);
             item6Amount = HomeController.matcha.getProductPrice() * qty;
 
             if (source == choicebox6) {
@@ -189,4 +197,45 @@ public class CheckoutController implements Initializable {
         // Display total amount in total label
         total.setText(Double.toString(totalAmount));
     }
+
+    public void getInitialAmount() {
+
+        double totalAmount = 0.00;
+
+        if (HomeController.hotchoco.getProductStatus()) {
+            totalAmount += HomeController.hotchoco.getProductPrice();
+        }
+
+        if (HomeController.espresso.getProductStatus()) {
+            totalAmount += HomeController.espresso.getProductPrice();
+        }
+
+        if (HomeController.strawberry.getProductStatus()) {
+            totalAmount += HomeController.strawberry.getProductPrice();
+        }
+
+        if (HomeController.fruit.getProductStatus()) {
+            totalAmount += HomeController.fruit.getProductPrice();
+        }
+
+        if (HomeController.caramel.getProductStatus()) {
+            totalAmount += HomeController.caramel.getProductPrice();
+        }
+
+        if (HomeController.matcha.getProductStatus()) {
+            totalAmount += HomeController.matcha.getProductPrice();
+        }
+
+        total.setText(Double.toString(totalAmount));
+    }
+
+     public void checkout(ActionEvent event) throws IOException {
+
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Receipt.fxml"));
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+}
 }
