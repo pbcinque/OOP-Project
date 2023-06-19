@@ -9,6 +9,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1234.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
    <children>
@@ -53,6 +54,11 @@
             <Line endX="243.0" layoutX="94.0" startX="-94.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="250.0" layoutX="87.0" layoutY="301.0" startX="-87.0" stroke="#ff82f3" strokeWidth="10.0" />
             <Line endX="240.0" endY="-311.0" layoutX="97.0" layoutY="311.0" startX="240.0" startY="-10.0" stroke="#ff82f3" strokeWidth="10.0" />
+            <Text layoutX="207.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Button fx:id="cartbutton" layoutX="569.0" layoutY="340.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="40.0" prefWidth="104.0" style="-fx-background-color: red;" text="My Cart" textFill="#ebb3cb">
@@ -77,7 +83,7 @@
                   <Font name="Broadway" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="price11" layoutX="227.0" layoutY="140.0" text="9.99">
+            <Label fx:id="price11" layoutX="233.0" layoutY="143.0" text="9.99">
                <font>
                   <Font name="Broadway" size="18.0" />
                </font>
@@ -96,6 +102,11 @@
             <Line endY="302.0" layoutX="-1.0" layoutY="-1.0" startY="1.0" stroke="#ff82f3" strokeWidth="10.0" />
             <Line endX="247.0" endY="111.0" layoutX="92.0" layoutY="181.0" startX="247.0" startY="-176.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="356.0" endY="-20.0" layoutX="-17.0" layoutY="321.0" startX="17.0" startY="-20.0" stroke="#ff82f3" strokeWidth="10.0" />
+            <Text layoutX="214.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Pane layoutX="867.0" layoutY="30.0" prefHeight="301.0" prefWidth="337.0" style="-fx-background-color: beige;">
@@ -115,7 +126,7 @@
                   <Font name="Broadway" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="price111" layoutX="230.0" layoutY="137.0" text="9.99">
+            <Label fx:id="price111" layoutX="235.0" layoutY="142.0" text="9.99">
                <font>
                   <Font name="Broadway" size="18.0" />
                </font>
@@ -134,6 +145,11 @@
             <Line endX="233.0" endY="119.0" layoutX="-233.0" layoutY="182.0" startX="233.0" startY="-182.0" stroke="#ff82f3" strokeWidth="10.0" />
             <Line endX="306.0" endY="-88.0" layoutX="31.0" layoutY="389.0" startX="306.0" startY="-386.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="383.0" endY="-163.0" layoutX="-46.0" layoutY="163.0" startX="51.0" startY="-163.0" stroke="#ff82f3" strokeWidth="10.0" />
+            <Text layoutX="218.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Pane layoutX="31.0" layoutY="391.0" prefHeight="301.0" prefWidth="337.0" style="-fx-background-color: beige;">
@@ -148,7 +164,7 @@
                   <Font name="Broadway" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="price2" layoutX="231.0" layoutY="140.0" text="9.99">
+            <Label fx:id="price2" layoutX="226.0" layoutY="140.0" text="9.99">
                <font>
                   <Font name="Broadway" size="18.0" />
                </font>
@@ -172,6 +188,11 @@
                   <Image url="@../image/anya3.png" />
                </image>
             </ImageView>
+            <Text layoutX="205.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Pane layoutX="449.0" layoutY="391.0" prefHeight="301.0" prefWidth="337.0" style="-fx-background-color: beige;">
@@ -191,7 +212,7 @@
                   <Font name="Broadway" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="price22" layoutX="230.0" layoutY="137.0" text="9.99">
+            <Label fx:id="price22" layoutX="231.0" layoutY="140.0" text="9.99">
                <font>
                   <Font name="Broadway" size="18.0" />
                </font>
@@ -210,6 +231,11 @@
             <Line endX="327.0" endY="-108.0" layoutX="-327.0" layoutY="409.0" startX="327.0" startY="-409.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="317.0" endY="-121.0" layoutX="20.0" layoutY="121.0" startX="-20.0" startY="-121.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="335.0" endY="-121.0" layoutX="7.0" layoutY="422.0" startX="335.0" startY="-422.0" stroke="#ff82f3" strokeWidth="10.0" />
+            <Text layoutX="209.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Pane layoutX="867.0" layoutY="391.0" prefHeight="301.0" prefWidth="337.0" style="-fx-background-color: beige;">
@@ -229,7 +255,7 @@
                   <Font name="Broadway" size="16.0" />
                </font>
             </Label>
-            <Label fx:id="price222" layoutX="229.0" layoutY="140.0" text="9.99">
+            <Label fx:id="price222" layoutX="242.0" layoutY="139.0" text="9.99">
                <font>
                   <Font name="Broadway" size="18.0" />
                </font>
@@ -248,6 +274,11 @@
             <Line endX="118.0" endY="-149.0" layoutX="-118.0" layoutY="449.0" startX="118.0" startY="-449.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="440.0" endY="-158.0" layoutX="-108.0" layoutY="459.0" startX="108.0" startY="-158.0" stroke="#b382ff" strokeWidth="10.0" />
             <Line endX="325.0" endY="-128.0" layoutX="17.0" layoutY="429.0" startX="325.0" startY="-429.0" stroke="#ff82f3" strokeWidth="10.0" />
+            <Text layoutX="219.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
       <Circle fill="DODGERBLUE" layoutX="25.0" layoutY="2.0" radius="11.0" stroke="#00dfff" strokeType="INSIDE" strokeWidth="2.0" style="-fx-fill: transparent;" />
