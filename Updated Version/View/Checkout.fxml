@@ -34,14 +34,14 @@
       <Circle fill="#f8c8dc" layoutX="1178.0" layoutY="75.0" opacity="0.4" radius="52.0" stroke="#e37383" strokeType="INSIDE" />
       <Pane layoutX="851.0" layoutY="37.0" prefHeight="448.0" prefWidth="345.0" style="-fx-background-color: trasparent; -fx-border-color: GOLDENROD; -fx-border-width: 0;">
          <children>
-            <Label layoutX="43.0" layoutY="39.0" text="Total" textFill="#4a4141">
+            <Label layoutX="58.0" layoutY="46.0" prefHeight="24.0" prefWidth="70.0" text="Total" textFill="#4a4141">
                <font>
                   <Font name="Bookman Old Style Bold" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="43.0" layoutY="69.0" prefHeight="90.0" prefWidth="141.0" text="Sub-Total:" textFill="#4a4141">
+            <Label layoutX="45.0" layoutY="70.0" prefHeight="90.0" prefWidth="152.0" text="Sub-Total:" textFill="#4a4141">
                <font>
-                  <Font name="Bookman Old Style Bold" size="20.0" />
+                  <Font name="Bookman Old Style Bold" size="18.0" />
                </font>
             </Label>
             <Button fx:id="checkoutButton" layoutX="50.0" layoutY="358.0" mnemonicParsing="false" onAction="#checkout" prefHeight="33.0" prefWidth="141.0" style="-fx-background-color: RED;" text="CHECKOUT" textFill="#ebb3cb">
@@ -49,9 +49,9 @@
                   <Font name="Bookman Old Style Bold" size="18.0" />
                </font>
             </Button>
-            <Label fx:id="total" layoutX="243.0" layoutY="95.0" prefHeight="39.0" prefWidth="87.0" text="15.00" textFill="#4a4141">
+            <Label fx:id="total" layoutX="232.0" layoutY="96.0" prefHeight="39.0" prefWidth="98.0" text="15.00" textFill="#4a4141">
                <font>
-                  <Font name="Bookman Old Style Bold" size="20.0" />
+                  <Font name="Bookman Old Style Bold" size="18.0" />
                </font>
             </Label>
             <Line endX="203.0" endY="0.13653564453125" layoutX="137.0" layoutY="295.0" startX="-131.0" startY="0.13653564453125" stroke="GOLDENROD" strokeWidth="0.0" />
