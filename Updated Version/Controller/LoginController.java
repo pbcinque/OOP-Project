@@ -28,7 +28,7 @@ public class LoginController {
     Label mywarninglabel;
 
     @FXML
-    //HomeController homeController = null;
+    HomeController homeController = null;
 
     public void login(ActionEvent event) throws IOException {
 
