@@ -40,22 +40,22 @@
             <Font name="Monospaced Regular" size="15.0" />
          </font>
       </Text>
-      <Text layoutX="32.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="----------------------------------------------">
+      <Text layoutX="32.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-----------------------------------------------">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="227.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" wrappingWidth="43.0">
+      <Text layoutX="233.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" wrappingWidth="43.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="309.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+      <Text layoutX="320.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="34.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY / Item Name">
+      <Text layoutX="32.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY /   Item Name" wrappingWidth="135.02197265625">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
@@ -129,7 +129,7 @@
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Label fx:id="qty6" layoutX="32.0" layoutY="341.0" prefHeight="15.0" prefWidth="43.0">
+      <Label fx:id="qty6" layoutX="32.0" layoutY="342.0" prefHeight="15.0" prefWidth="43.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
@@ -144,7 +144,7 @@
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Label fx:id="product6" layoutX="88.0" layoutY="341.0" prefHeight="15.0" prefWidth="101.0">
+      <Label fx:id="product6" layoutX="88.0" layoutY="342.0" prefHeight="15.0" prefWidth="101.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
@@ -159,7 +159,7 @@
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Label fx:id="price222" layoutX="228.0" layoutY="341.0" prefHeight="15.0" prefWidth="53.0">
+      <Label fx:id="price222" layoutX="228.0" layoutY="342.0" prefHeight="15.0" prefWidth="53.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
@@ -169,7 +169,7 @@
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Label fx:id="amount6" layoutX="311.0" layoutY="341.0" prefHeight="15.0" prefWidth="61.0">
+      <Label fx:id="amount6" layoutX="311.0" layoutY="342.0" prefHeight="15.0" prefWidth="61.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
@@ -179,75 +179,151 @@
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Text layoutX="32.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="----------------------------------------------" wrappingWidth="331.25390625">
+      <Text layoutX="32.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-----------------------------------------------" wrappingWidth="338.455078125">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="28.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total to pay:">
+      <Text layoutX="37.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total to pay:">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Label fx:id="total" layoutX="310.0" layoutY="379.0" prefHeight="15.0" prefWidth="61.0">
+      <Label fx:id="total" layoutX="310.0" layoutY="385.0" prefHeight="15.0" prefWidth="61.0">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Label>
-      <Text layoutX="32.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="----------------------------------------------">
+      <Text layoutX="34.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-----------------------------------------------">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="45.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for visiting Kuromi's Coffee Shop !">
+      <Text layoutX="43.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for visiting Kuromi's Coffee Shop !">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="34.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="==============================================">
+      <Text layoutX="42.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date: 06/13/23   7:00 am">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="35.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date: 06/13/23   7:00 am">
+      <Text layoutX="42.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff: Anya Forger">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="35.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff: Anya Forger">
+      <Text layoutX="258.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Slip: 03281994">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="259.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Slip: 69420123">
+      <Text layoutX="257.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trans: 112101">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <Text layoutX="262.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trans: 112101">
-         <font>
-            <Font name="Monospaced Regular" size="12.0" />
-         </font>
-      </Text>
-      <ImageView accessibleRole="BUTTON" fitHeight="140.0" fitWidth="186.0" layoutX="188.0" layoutY="506.0">
+      <ImageView accessibleRole="BUTTON" fitHeight="140.0" fitWidth="186.0" layoutX="185.0" layoutY="522.0">
          <image>
             <Image url="@../image/anya5.gif" />
          </image>
       </ImageView>
-      <Text layoutX="115.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please do come again :)">
+      <Text layoutX="118.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please do come again :)">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Text>
-      <ImageView fitHeight="97.0" fitWidth="173.0" layoutX="41.0" layoutY="527.0" rotate="-149.0">
+      <ImageView fitHeight="97.0" fitWidth="173.0" layoutX="42.0" layoutY="533.0" rotate="-149.0">
          <image>
             <Image url="@../image/bubble.gif" />
          </image>
       </ImageView>
-      <Button fx:id="clickMe" layoutX="51.0" layoutY="564.0" mnemonicParsing="false" onAction="#proceed" rotate="31.0" style="-fx-background-color: transparent;" text="Click Here !" textFill="#ab3363">
+      <Button fx:id="clickMe" layoutX="52.0" layoutY="574.0" mnemonicParsing="false" onAction="#proceed" rotate="31.0" style="-fx-background-color: transparent;" text="Click Here !" textFill="#ab3363">
          <font>
             <Font name="Monospaced Bold" size="18.0" />
          </font>
       </Button>
+      <Text layoutX="215.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="297.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="11.0" layoutY="474.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="142.0" layoutY="474.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="273.0" layoutY="474.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
+
