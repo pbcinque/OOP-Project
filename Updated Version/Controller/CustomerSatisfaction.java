@@ -1,12 +1,17 @@
 package controller;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXML;
-import javafx.scene.control.RadioButton;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
-public class CustomerSatisfaction {
+public class CustomerSatisfaction implements Initializable {
 
     @FXML
     private ImageView image1;
@@ -18,50 +23,21 @@ public class CustomerSatisfaction {
     private ImageView image3;
 
     @FXML
-    private RadioButton r1;
+    private Button b1, b2;
 
-    @FXML
-    private RadioButton r2;
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
 
-    @FXML
-    void pick(ActionEvent event) {
+        image3.setVisible(true);
 
-        if (r1.isSelected()) {
-            image1.setVisible(true);
+        b1.setOnMouseClicked(event -> {
+            image1.setVisible(true); image2.setVisible(false); image3.setVisible(false);});
 
-        } else {
-            image1.setVisible(false);
+        b2.setOnMouseClicked(event -> {
+            image2.setVisible(true); image1.setVisible(false); image3.setVisible(false);});
+        
+    }
+
 
         } 
 
-    }
-
-     @FXML
-    void pick2(ActionEvent event) {
-
-        if (r2.isSelected()) {
-            image2.setVisible(true);
-
-        } else {
-            image2.setVisible(false);
-
-        } 
-
-
-    }
-
-    @FXML
-    void point(MouseEvent event) {
-        image1.setVisible(true);
-        image2.setVisible(false);
-
-    }
-
-    @FXML
-    void point2(MouseEvent event) {
-        image2.setVisible(true);
-        image1.setVisible(false);
-
-    }
-
-}
