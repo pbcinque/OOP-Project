@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="796.0" prefWidth="1244.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CheckoutController">
+   <children>
+      <ImageView fitHeight="1268.0" fitWidth="1250.0" layoutX="-3.0" layoutY="-454.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bg1.gif" />
+         </image>
+      </ImageView>
+      <Circle fill="#f8c8dc" layoutX="110.0" layoutY="782.0" opacity="0.4" radius="110.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="376.0" layoutY="749.0" opacity="0.4" radius="173.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="678.0" layoutY="796.0" opacity="0.4" radius="173.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="985.0" layoutY="814.0" opacity="0.4" radius="148.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="1222.0" layoutY="672.0" opacity="0.4" radius="148.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="936.0" layoutY="585.0" opacity="0.4" radius="164.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="104.0" layoutY="23.0" opacity="0.4" radius="148.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="326.0" layoutY="30.0" opacity="0.4" radius="88.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="828.0" layoutY="204.0" opacity="0.4" radius="173.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="454.0" layoutY="234.0" opacity="0.4" radius="88.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="345.0" layoutY="416.0" opacity="0.4" radius="59.0" stroke="#e37383" strokeType="INSIDE" />
+      <Circle fill="#f8c8dc" layoutX="1178.0" layoutY="75.0" opacity="0.4" radius="52.0" stroke="#e37383" strokeType="INSIDE" />
+      <Pane layoutX="851.0" layoutY="37.0" prefHeight="448.0" prefWidth="345.0" style="-fx-background-color: trasparent; -fx-border-color: GOLDENROD; -fx-border-width: 0;">
+         <children>
+            <Label layoutX="58.0" layoutY="46.0" prefHeight="24.0" prefWidth="70.0" text="Total" textFill="#4a4141">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="70.0" prefHeight="90.0" prefWidth="152.0" text="Sub-Total:" textFill="#4a4141">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkoutButton" layoutX="50.0" layoutY="358.0" mnemonicParsing="false" onAction="#checkout" prefHeight="33.0" prefWidth="141.0" style="-fx-background-color: RED;" text="CHECKOUT" textFill="#ebb3cb">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="total" layoutX="232.0" layoutY="96.0" prefHeight="39.0" prefWidth="98.0" text="15.00" textFill="#4a4141">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="203.0" endY="0.13653564453125" layoutX="137.0" layoutY="295.0" startX="-131.0" startY="0.13653564453125" stroke="GOLDENROD" strokeWidth="0.0" />
+            <ImageView fitHeight="149.0" fitWidth="182.0" layoutX="93.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/anya6.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="175.0" layoutX="-3.0" layoutY="431.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="167.0" layoutY="432.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="175.0" layoutX="-83.0" layoutY="340.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="251.0" layoutY="343.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="-87.0" layoutY="161.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="251.0" layoutY="167.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="2.0" layoutY="-8.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="-87.0" layoutY="83.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="251.0" layoutY="76.0" rotate="90.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="182.0" layoutX="167.0" layoutY="-8.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="175.0" layoutX="6.0" layoutY="283.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="175.0" layoutX="171.0" layoutY="281.0">
+               <image>
+                  <Image url="@../image/divider.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="162.0" fitWidth="182.0" layoutX="211.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/melody.gif" />
+               </image>
+            </ImageView>
+            <Text layoutX="211.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+               <font>
+                  <Font name="Broadway" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <VBox fx:id="myvbox1" layoutX="17.0" layoutY="19.0" prefHeight="759.0" prefWidth="391.0" spacing="6.0">
+         <children>
+            <Pane fx:id="pane1" prefHeight="200.0" prefWidth="367.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <ImageView fx:id="img1" fitHeight="176.0" fitWidth="313.0" layoutX="11.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/hotchoco.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="price1" layoutX="223.0" layoutY="44.0" prefHeight="21.0" prefWidth="53.0" text="5.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name1" layoutX="200.0" layoutY="90.0" text="Bedroom Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox1" layoutX="201.0" layoutY="138.0" prefWidth="150.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <Line endX="10.0" endY="130.0" layoutX="-10.0" layoutY="65.0" startX="10.0" startY="-65.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="387.0" endY="-61.0" layoutX="4.0" layoutY="261.0" startX="-4.0" startY="-61.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="413.0" endY="115.0" layoutX="-22.0" layoutY="85.0" startX="413.0" startY="-85.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="377.0" endY="-61.0" layoutX="14.0" layoutY="61.0" startX="-14.0" startY="-61.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Text layoutX="201.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane fx:id="pane2" prefHeight="200.0" prefWidth="550.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <Label fx:id="price11" layoutX="224.0" layoutY="43.0" prefHeight="21.0" prefWidth="70.0" text="10.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name11" layoutX="204.0" layoutY="86.0" text="Ceiling Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox2" layoutX="204.0" layoutY="136.0" prefWidth="150.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <ImageView fx:id="img11" fitHeight="176.0" fitWidth="313.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/espresso.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="-10.0" endY="123.0" layoutX="401.0" layoutY="77.0" startX="-10.0" startY="-72.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="-13.0" endY="125.0" layoutX="13.0" layoutY="73.0" startX="-13.0" startY="-73.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="402.0" endY="-33.0" layoutX="-11.0" layoutY="33.0" startX="11.0" startY="-33.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="398.0" endY="-20.0" layoutX="-7.0" layoutY="220.0" startX="7.0" startY="-20.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Text layoutX="204.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane fx:id="pane3" prefHeight="200.0" prefWidth="550.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <Label fx:id="price111" layoutX="230.0" layoutY="37.0" prefHeight="21.0" prefWidth="70.0" text="5.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name111" layoutX="211.0" layoutY="86.0" text="Wall Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox3" layoutX="209.0" layoutY="133.0" prefHeight="27.0" prefWidth="152.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <ImageView fx:id="img111" fitHeight="176.0" fitWidth="313.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/strawberry.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="334.0" endY="-133.0" layoutX="57.0" layoutY="133.0" startX="-57.0" startY="-133.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="439.0" endY="76.0" layoutX="-48.0" layoutY="124.0" startX="439.0" startY="-124.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="87.0" endY="86.0" layoutX="304.0" layoutY="114.0" startX="-295.9289245605469" startY="86.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="35.0" endY="39.0" layoutX="-35.0" layoutY="161.0" startX="35.0" startY="-161.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Text layoutX="211.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox fx:id="myvbox2" layoutX="435.0" layoutY="19.0" prefHeight="759.0" prefWidth="391.0" spacing="6.0">
+         <children>
+            <Pane fx:id="pane4" prefHeight="200.0" prefWidth="367.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <Label fx:id="price2" layoutX="222.0" layoutY="41.0" prefHeight="21.0" prefWidth="54.0" text="5.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name2" layoutX="201.0" layoutY="87.0" text="Bedroom Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox4" layoutX="201.0" layoutY="137.0" prefWidth="150.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <ImageView fx:id="img2" fitHeight="176.0" fitWidth="313.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/fruittea.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="-4.0" endY="126.0" layoutX="395.0" layoutY="74.0" startX="-4.0" startY="-74.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="282.0" endY="-51.0" layoutX="109.0" layoutY="51.0" startX="-109.0" startY="-51.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="-18.0" endY="104.0" layoutX="18.0" layoutY="91.0" startX="-18.0" startY="-91.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="408.0" endY="-20.0" layoutX="-17.0" layoutY="220.0" startX="17.0" startY="-20.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Text layoutX="201.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane fx:id="pane5" prefHeight="200.0" prefWidth="550.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <Label fx:id="price22" layoutX="219.0" layoutY="48.0" prefHeight="21.0" prefWidth="62.0" text="10.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name22" layoutX="199.0" layoutY="87.0" text="Ceiling Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox5" layoutX="199.0" layoutY="136.0" prefHeight="27.0" prefWidth="150.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <ImageView fx:id="img22" fitHeight="176.0" fitWidth="313.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/caramelfrappe.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="275.0" endY="92.0" layoutX="116.0" layoutY="107.0" startX="275.0" startY="-107.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="212.0" endY="-20.0" layoutX="179.0" layoutY="20.0" startX="-172.0" startY="-20.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="-67.0" endY="104.0" layoutX="69.0" layoutY="91.0" startX="-67.0" startY="-91.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="387.0" endY="-61.0" layoutX="4.0" layoutY="261.0" startX="-2.0" startY="-61.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Text layoutX="199.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane fx:id="pane6" prefHeight="200.0" prefWidth="550.0" style="-fx-background-color: trasparent; -fx-border-width: 4;">
+               <children>
+                  <Label fx:id="price222" layoutX="222.0" layoutY="39.0" prefHeight="21.0" prefWidth="62.0" text="5.00" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name222" layoutX="199.0" layoutY="90.0" text="Wall Lamp" textFill="#4a4141">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choicebox6" layoutX="200.0" layoutY="131.0" prefWidth="150.0" style="-fx-background-color: #f8c8dc; -fx-border-color: #e37383;" />
+                  <ImageView fx:id="img222" fitHeight="176.0" fitWidth="313.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/matchalatte.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="-19.0" endY="126.0" layoutX="18.0" layoutY="74.0" startX="-19.0" startY="-74.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="-19.0" endY="119.0" layoutX="410.0" layoutY="79.0" startX="-19.0" startY="-74.0" stroke="#ff82f3" strokeWidth="10.0" />
+                  <Line endX="320.0" endY="-18.0" layoutX="71.0" layoutY="18.0" startX="-71.0" startY="-18.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Line endX="399.0" endY="-20.0" layoutX="-8.0" layoutY="220.0" startX="17.0" startY="-20.0" stroke="#b382ff" strokeWidth="10.0" />
+                  <Text layoutX="200.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¥">
+                     <font>
+                        <Font name="Broadway" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
