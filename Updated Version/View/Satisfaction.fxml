@@ -29,19 +29,19 @@
             <Image url="@../image/broken-heart.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image3" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image2" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
-            <Image url="@../image/anya9.gif" />
+            <Image url="@../image/anya8.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="image1" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="image1" fitHeight="117.0" fitWidth="102.0" layoutX="154.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@../image/anya7.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="image2" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fx:id="image3" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../image/anya8.gif" />
+            <Image url="@../image/anya9.gif" />
          </image>
       </ImageView>
       <Text layoutX="162.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kuromi's Coffee Shop, JPN" textAlignment="CENTER">
@@ -64,19 +64,9 @@
             <Font name="Monospaced Regular" size="15.0" />
          </font>
       </Text>
-      <Text layoutX="32.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you again for visiting">
-         <font>
-            <Font name="Monospaced Regular" size="20.0" />
-         </font>
-      </Text>
       <Text layoutX="29.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How satisfied are you with our service?">
          <font>
             <Font name="Monospaced Regular" size="15.0" />
-         </font>
-      </Text>
-      <Text layoutX="72.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kuromi's Coffee Shop !">
-         <font>
-            <Font name="Monospaced Regular" size="20.0" />
          </font>
       </Text>
       <Text layoutX="32.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello valued customer !">
@@ -109,36 +99,37 @@
             <Image url="@../image/divider.gif" />
          </image>
       </ImageView>
-      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="26.0" layoutY="546.0">
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="26.0" layoutY="579.0">
          <image>
             <Image url="@../image/divider.gif" />
          </image>
       </ImageView>
-      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="140.0" layoutY="546.0">
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="142.0" layoutY="579.0">
          <image>
             <Image url="@../image/divider.gif" />
          </image>
       </ImageView>
-      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="257.0" layoutY="546.0">
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="259.0" layoutY="579.0">
          <image>
             <Image url="@../image/divider.gif" />
          </image>
       </ImageView>
-      <Button fx:id="b1" layoutX="58.0" layoutY="310.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="84.0" style="-fx-background-color: transparent;">
+      <Button fx:id="b1" layoutX="58.0" layoutY="310.0" mnemonicParsing="false" onAction="#satisfied" prefHeight="88.0" prefWidth="84.0" style="-fx-background-color: transparent;">
          <font>
             <Font name="Monospaced Regular" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="b2" layoutX="252.0" layoutY="310.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="102.0" style="-fx-background-color: tranparent;" />
-      <Text fill="#ab3363" layoutX="59.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satisfied">
+      <Button fx:id="b2" layoutX="252.0" layoutY="310.0" mnemonicParsing="false" onAction="#unsatisfied" prefHeight="88.0" prefWidth="102.0" style="-fx-background-color: tranparent;" />
+      <Text fill="#ab3363" layoutX="58.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satisfied">
          <font>
             <Font name="Monospaced Bold" size="15.0" />
          </font>
       </Text>
-      <Text fill="#ab3363" layoutX="253.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unsatisfied">
+      <Text fill="#ab3363" layoutX="253.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unsatisfied">
          <font>
             <Font name="Monospaced Bold" size="15.0" />
          </font>
       </Text>
    </children>
 </AnchorPane>
+
