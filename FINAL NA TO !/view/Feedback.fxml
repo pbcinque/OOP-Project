@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFeedback">
+   <children>
+      <ImageView fitHeight="728.0" fitWidth="703.0" layoutX="-303.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/star.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="165.0" fitWidth="166.0" layoutX="1.0" layoutY="-2.0">
+         <image>
+            <Image url="@../image/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="126.0" layoutX="45.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/love.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="143.0" layoutX="239.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/broken-heart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image2" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true" visible="false" x="-80.0">
+         <image>
+            <Image url="@../image/anya8.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image1" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true" visible="false" x="-80.0">
+         <image>
+            <Image url="@../image/anya7.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image3" fitHeight="117.0" fitWidth="102.0" layoutX="153.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true" x="-80.0">
+         <image>
+            <Image url="@../image/anya9.gif" />
+         </image>
+      </ImageView>
+      <Text layoutX="162.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kuromi's Coffee Shop, JPN" textAlignment="CENTER">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toshima City, Ikebukuro " textAlignment="CENTER">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Japan, Tokyo " textAlignment="CENTER">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="205.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+81 3-5985-5600" textAlignment="CENTER">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="29.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How satisfied are you with our service?">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="32.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello valued customer !">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We kindly encourage you to help us">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rate our service :)">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="bubble1" fitHeight="242.0" fitWidth="253.0" layoutX="142.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bubble1gif.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="26.0" layoutY="156.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="146.0" layoutY="156.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="264.0" layoutY="156.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="26.0" layoutY="593.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="146.0" layoutY="593.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="117.0" layoutX="264.0" layoutY="593.0">
+         <image>
+            <Image url="@../image/divider.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="b1" layoutX="58.0" layoutY="310.0" mnemonicParsing="false" onAction="#satisfied" prefHeight="88.0" prefWidth="84.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="252.0" layoutY="310.0" mnemonicParsing="false" onAction="#unsatisfied" prefHeight="88.0" prefWidth="102.0" style="-fx-background-color: tranparent;" />
+      <Text fill="#ab3363" layoutX="58.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satisfied">
+         <font>
+            <Font name="Monospaced Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#ab3363" layoutX="253.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unsatisfied">
+         <font>
+            <Font name="Monospaced Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text1" fill="#ab3363" layoutX="205.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Did Anya do a">
+         <font>
+            <Font name="Monospaced Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" fill="#ab3363" layoutX="222.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="good job?">
+         <font>
+            <Font name="Monospaced Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="text3" fill="#ab3363" layoutX="187.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ヾ(●⌒∇⌒●)ﾉ" visible="false" wrappingWidth="166.0">
+         <font>
+            <Font name="Monospaced Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="text4" fill="#ab3363" layoutX="205.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(つ﹏&lt;。)" visible="false" wrappingWidth="117.0">
+         <font>
+            <Font name="Monospaced Bold" size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
