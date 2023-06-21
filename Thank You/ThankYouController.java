@@ -18,7 +18,7 @@ public class ThankYouController {
 	 public void gohome(ActionEvent event) throws IOException {
 
 	        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-	            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Home.fxml"));
+	            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Login.fxml"));
 	            Parent root = loader.load();
 	            Scene scene = new Scene(root);
 	            stage.setScene(scene);
