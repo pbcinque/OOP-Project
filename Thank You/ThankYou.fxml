@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ThankYouController">
    <children>
       <ImageView fitHeight="579.0" fitWidth="576.0" layoutX="-6.0" layoutY="-163.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -62,7 +62,7 @@
       <Circle fill="#f8c8dc" layoutX="467.0" layoutY="93.0" opacity="0.4" radius="32.0" stroke="#e37383" strokeType="INSIDE" />
       <Circle fill="#f8c8dc" layoutX="487.0" layoutY="148.0" opacity="0.4" radius="20.0" stroke="#e37383" strokeType="INSIDE" />
       <Circle fill="#f8c8dc" layoutX="505.0" layoutY="172.0" opacity="0.4" radius="23.0" stroke="#e37383" strokeType="INSIDE" />
-      <ImageView fitHeight="201.0" fitWidth="193.0" layoutX="383.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="201.0" fitWidth="193.0" layoutX="386.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/anya10.gif" />
          </image>
@@ -167,7 +167,7 @@
             <Font name="OCR A Extended" size="40.0" />
          </font>
       </Label>
-      <Button fx:id="mybutton" layoutX="346.0" layoutY="343.0" mnemonicParsing="false" onAction="#gohome" text="GO BACK TO LOGIN PAGE" textFill="#ab3363">
+      <Button fx:id="mybutton" layoutX="366.0" layoutY="343.0" mnemonicParsing="false" onAction="#gohome" text="GO BACK TO LOGIN PAGE" textFill="#ab3363">
          <font>
             <Font name="Agency FB" size="19.0" />
          </font>
